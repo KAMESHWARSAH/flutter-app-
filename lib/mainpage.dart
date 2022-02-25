@@ -1,6 +1,7 @@
 import 'package:cprogramming/topiclist/listoftopic.dart';
 import 'package:flutter/material.dart';
 
+import 'devloper/developerkk.dart';
 import 'mystyle.dart';
 class Home extends StatelessWidget {
   @override
@@ -98,7 +99,7 @@ class Home extends StatelessWidget {
                       children: [
                         ElevatedButton(
 
-                          child: const Text('Q/A Interview', style: fonttext),
+                          child: const Text('Interview', style: fonttext),
                           onPressed: () {
                             Navigator.push(
                               context,
@@ -128,7 +129,7 @@ class Home extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => Topics()),
+                              MaterialPageRoute(builder: (context) => Devloper()),
                             );
                           },
                         ),
@@ -195,10 +196,7 @@ class Home extends StatelessWidget {
                         ),
                       ],
                     ),
-                    Text("Coming soon", style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 15,
-                    ),),
+
                   ],
                 ),
                 SizedBox(

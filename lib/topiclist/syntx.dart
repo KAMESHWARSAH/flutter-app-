@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../mystyle.dart';
 
-class Introduction extends StatelessWidget {
+class Syntax extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +22,7 @@ class Introduction extends StatelessWidget {
             Row(
               children: [
                 Text(
-                  "Introduction Of C Language",
+                  " Syntax Of C programming",
                   style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.w700,
@@ -41,18 +41,11 @@ class Introduction extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
-                      'Software :- Software is a collection of code and data. \n'
-                          ' \nCode:- Code is collection of program and functions. \n'
-                          'Programming is two types \n'
-                        '(i)	Low leave programming\n'
-                        '     (a)	Machine Level\n'
-                '     (b)	Assembly Level\n\n''(ii)	High level programming (Need of Complier and interpreter)\n\n'
-                      'Generation of Programming\n'
-                        '(1) machine\n'
-                        '(2) Assembly\n'
-                        '(3) procedure\n'
-                        '(4) Object oriented Programming\n\n'
-                          'C is High Level Programming Lnaguage',
+                      '#include<stdio.h>\n'
+                      '{\n'
+                      'int main()\n'
+                      'printf("Hello world");\n'
+                      '}\n',
                       maxLines: 25,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
